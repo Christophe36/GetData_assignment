@@ -9,27 +9,28 @@ Assuming that data are already on your working directory.
                as.data.frame() : coerce data set type from "data.table" "data.frame" 
                to data frame.
  1.a. merging train and test data sets  
-    function rbind() : binds data sets with respect to rows 
-
+    function rbind() : binds train and test data sets with respect to rows 
+    and leads to Dataset data frame.
 2.  Descriptive Activities  names : comments lines to give descriptives names to 
 activities perform by subject
 
-     - static 
-
-     - dynamic 
+read activity label in file  "activity_labels.txt"
 
 3. Extract means and Standard deviations of each measurement
-    A : A text data table of data labels.
+    "features.txt" : a text file data of features labels.
     Means : features means 
-   SD : features standard deviations
+   SD : features standard deviation
    -function : 
-               fread() reads features.txt data file
-               grep()  gets regular expression in A and realise indexation in data
-                by the vector of position returned by grep()
+               fread (): reads features.txt data file
+               grep () : gets regular expression index from features vector extracted from features.txt
+               gsub () : removes special characters from above selected features names 
+               cbind () : creates a new dataset comprise of Means and SD 
 4. Labelling  data set 
-   -for loop : labels the latter data set by iterations
+ - get subject and activity vectors from given files (subject_train.tx, Y_train.txt,subject_test.txt, Y_train,Y_test)
+ - bind columnwise subject and activity to the above dataset with cbind ()
 
 5.DATA SET WITH AVERAGE OF EACH VARIABLE OF EACH ACTIVITY AND EACH SUBJECT
- the file delivering the subjects ID ( subject_train.txt and subject test.txt files) are unreadable.
  
+ DataSet1 comprises of  : 6 activities times 30 subjects = 180 rows 
+                       : 88 means and SD features
 
