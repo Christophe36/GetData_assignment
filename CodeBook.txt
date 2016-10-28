@@ -2,17 +2,19 @@ Code book
 ================================================================================
 This assignment is delivered with :  
 - a R script to process data   
-- a text file : means data set file   
-- a text file : corresponding labels to means data set    
+- a text file : means and standard deviation (SD) data set files   
+- a text file : corresponding labels to means and SD data set    
 
 files 
 =====
    'run_analysis.R'  
     'DataSet1.txt'  
-    'Labels.MeansData.txt'  
+    'Labels.DataSet1.txt'
+ Data set Variable transformation
+ =========================
+ i ) variable selection to build a new dataset (Dataset1) comprise of means and SD
+ ii ) special character removal
+ iii) mean calculation of each subject  ,each activity and each remainning features in the above data set
     
-Notes    
-===== 
-Variables has not been updated, because data are extracted from the former data set
-without any transformation.
+
 
