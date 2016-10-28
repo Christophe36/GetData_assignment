@@ -1,4 +1,4 @@
-Run_analysis README 
+is Run_analysis README 
 ================================================================================
 include library : 
     data.table  : very fast package to read table.
@@ -31,6 +31,6 @@ read activity label in file  "activity_labels.txt"
 
 5.DATA SET WITH AVERAGE OF EACH VARIABLE OF EACH ACTIVITY AND EACH SUBJECT
  
- DataSet1 comprises of  : 6 activities times 30 subjects = 180 rows 
+ DataSet1 is comprised of  : 6 activities times 30 subjects = 180 rows 
                        : 88 means and SD features
 
