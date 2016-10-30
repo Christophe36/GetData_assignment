@@ -4,7 +4,7 @@ include library :
     data.table  : very fast package to read table.
 Assuming that data are already on your working directory.
 
-1. Import training and test data 
+1. Import train and test data 
     function : fread() : reads a data table 
                as.data.frame() : coerce data set type from "data.table" "data.frame" 
                to data frame.
