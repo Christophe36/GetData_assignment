@@ -66,7 +66,7 @@ DataSet1 <- as.data.frame(DataSet1)
 DataSet1$Activities <- as.factor(DataSet1$Activities)
 DataSet1 = aggregate(.~ Subject + Activities, DataSet1, FUN = mean)
 
-# write tables 
+# write table
 # Means_SD_Data  : DataSet1 text file.
 
 write.table(DataSet1,
