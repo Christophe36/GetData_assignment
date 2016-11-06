@@ -66,7 +66,7 @@ read activity label in file  "activity_labels.txt"
 
 ```
 
- - get subject and activity vectors from given files (subject_train.tx, Y_train.txt,subject_test.txt, Y_train,Y_test)
+ - get subject and activity vectors from given files (subject_train.txt, Y_train.txt,subject_test.txt,Y_test)
 
  - bind columnwise subject and activity to the above dataset with cbind ()
 
